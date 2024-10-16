@@ -946,6 +946,10 @@ button:hover {
   cursor: pointer;
 }
 
+.custom-btn:hover {
+  color: #fff; /* Change text color on hover: better visibility */
+}
+
 .container__right {
   display: grid;
   gap: 4rem; /* Increased gap for larger cards */
@@ -1816,6 +1820,9 @@ input:checked + .slider:before {
   border-radius: 50%;
   margin: 3rem 1.5rem 3rem 0;
   transition: 0.3s ease;
+  color: #000000;
+}
+[data-theme="dark"] .social-icons a {
   color: #ffffff;
 }
 
